@@ -30,7 +30,7 @@ knit        : slidify::knit2slides
 
 ---
 
-## Built in R
+## Built in R...
 
 
 
@@ -47,11 +47,6 @@ violent.crimes %>% group_by(offense) %>% summarize(count = n())
 ## 3               rape    22
 ## 4             murder     5
 ```
-#Although the current version gives you basic functionality, here's some other features that would be nice:
-#
-#> - Maps and crime data for the U.S. or the world;
-#> - Point location and density mapping toggling;
-#> - Map pan and zoom controls.
-
-> - ## Try Shiny Crime Map today...
-> - https://jcfielding.shinyapps.io/ShinyCrimeMap
+<br/>
+## Try Shiny Crime Map today...
+https://jcfielding.shinyapps.io/ShinyCrimeMap
